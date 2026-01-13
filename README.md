@@ -1,34 +1,52 @@
-📄 AI PDF Summarizer
+# 📄 AI PDF Summarizer
 
 A simple web app that lets you upload a PDF and get a quick summary using OpenAI's GPT-3.5 model.
 
-📋 Project Overview
+---
 
-This tool makes it easier to understand long PDF documents without reading the entire thing. After uploading a file, the app pulls out the text and sends it to the GPT-3.5 model, which returns a short summary. It’s useful for reviewing reports, articles, or any text-heavy documents.
+## 📋 Project Overview
 
-✅ Features
+This tool helps you quickly understand long PDF documents without reading through the entire thing. After uploading a file, the app extracts the text and sends it to GPT-3.5 to generate a summary. It's useful for summarizing reports, articles, research papers, or any other text-heavy PDFs.
 
-Upload any PDF file
+---
 
-Extracts text directly from the document
+## ✅ Features
 
-Generates a short summary using GPT-3.5
+- Upload and summarize any PDF file
+- Extracts full text from the uploaded document
+- Uses GPT-3.5 to generate a short and clear summary
+- Streamlit interface with clean layout
+- API key is entered manually and not stored
 
-Clean and easy-to-use interface built with Streamlit
+---
 
-OpenAI API key input is kept temporary and not saved
+## 🛠️ Built With
 
-🛠️ Built With
+- **Python** - App logic and backend
+- **Streamlit** - Frontend interface
+- **PyMuPDF (fitz)** - PDF reading and text extraction
+- **OpenAI API** - Text summarization using GPT-3.5
 
-Python for the backend logic
+---
 
-Streamlit for the user interface
+## 🚀 Live Demo
 
-PyMuPDF (fitz) to read and extract text from PDFs
+Check out the app here:  
+[https://ai-pdf-summarizer-9xb5ngq7rbpkgnargfd76j.streamlit.app/](https://ai-pdf-summarizer-9xb5ngq7rbpkgnargfd76j.streamlit.app/)
 
-OpenAI API for generating the summary
+---
 
-🌐 Live App
+## 📂 How to Use
 
-You can try the app here:
-https://ai-pdf-summarizer-9xb5ngq7rbpkgnargfd76j.streamlit.app/
+1. Go to the deployed Streamlit app
+2. Paste your OpenAI API key into the sidebar
+3. Upload a PDF file
+4. Click "Summarize PDF" to generate the summary
+5. View and copy your summary from the results section
+
+---
+
+## 📌 Note
+
+- This app requires a valid OpenAI API key
+- Your key is never stored or shared
